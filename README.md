@@ -1,50 +1,48 @@
-# Hi, I'm R Saha
+# R Saha
 
-Software Engineer focused on building production-ready AI, ML, and full-stack systems.
+Software engineer building production-focused AI, ML, and full-stack systems.
 
-## About
+![Followers](https://img.shields.io/github/followers/RSaha0507?style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/RSaha0507?affiliations=OWNER%2CCOLLABORATOR&style=for-the-badge)
+![Profile Views](https://komarev.com/ghpvc/?username=RSaha0507&style=for-the-badge)
 
-- I work across Python, machine learning, data pipelines, and web applications.
-- I enjoy taking ideas from prototype stage to deployment with clean engineering practices.
-- My recent work includes healthcare platforms, cybersecurity systems, and applied ML experimentation.
+## What I work on
 
-## Core Focus Areas
+- Applied machine learning and data-driven product development
+- Python backend systems and API-first architecture
+- Security-aware engineering and threat-oriented applications
+- End-to-end experimentation with reproducible pipelines
 
-- Machine Learning and Applied AI
-- Full-Stack Product Development
-- Data Engineering and Experimentation
-- Security-aware Software Design
+## Featured projects
 
-## Featured Repositories
+### [house-buying-ml-ensemble-lab](https://github.com/RSaha0507/house-buying-ml-ensemble-lab)
+Multi-class ML system with neural networks, KNN, KMeans++, K-Medoids, bootstrap ensembling, full experiment logs, and historical visual snapshots.
 
-- [house-buying-ml-ensemble-lab](https://github.com/RSaha0507/house-buying-ml-ensemble-lab)  
-  Multi-model ML lab with neural networks, KNN, clustering-based models, ensembling, and full experiment tracking.
+### [Nirmaya-Health-Services](https://github.com/RSaha0507/Nirmaya-Health-Services)
+Healthcare platform development focused on practical product engineering.
 
-- [Nirmaya-Health-Services](https://github.com/RSaha0507/Nirmaya-Health-Services)  
-  Healthcare-focused software platform work.
+### [Cyber_Threat_System](https://github.com/RSaha0507/Cyber_Threat_System)
+Cybersecurity-oriented project with threat analysis and defensive modeling focus.
 
-- [Cyber_Threat_System](https://github.com/RSaha0507/Cyber_Threat_System)  
-  Security and threat-analysis oriented project.
+### [sde-crud-platform](https://github.com/RSaha0507/sde-crud-platform)
+Backend/full-stack CRUD platform with clean service structure and implementation discipline.
 
-- [sde-crud-platform](https://github.com/RSaha0507/sde-crud-platform)  
-  Backend/full-stack CRUD platform implementation.
+## Stack
 
-## Tech Stack
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-025E8C?style=flat-square)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 
-- Languages: Python, JavaScript, SQL
-- ML/Data: scikit-learn, pandas, NumPy, Jupyter
-- Web/Backend: Flask/FastAPI style Python services, REST APIs
-- Tooling: Git, GitHub Actions, experiment/version tracking
+## GitHub analytics
 
-## GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=RSaha0507&show_icons=true&hide_border=true)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=RSaha0507&show_icons=true&hide_border=true&rank_icon=github)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=RSaha0507&layout=compact&hide_border=true)
+![GitHub Streak](https://streak-stats.demolab.com?user=RSaha0507&hide_border=true)
 
-## Contact
+## Collaboration
 
-- GitHub: [@RSaha0507](https://github.com/RSaha0507)
-
----
-
-I am open to collaborations on applied AI/ML, data-driven products, and production-focused software engineering projects.
+Open to collaboration on applied AI/ML systems, production engineering, and data-centric software products.
