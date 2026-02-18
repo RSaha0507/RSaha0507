@@ -67,6 +67,7 @@ Ongoing optimization-focused transformer work for resource-constrained settings 
 
 ## Let's connect
 
+- Portfolio: [my-portfolio-rho-five-42.vercel.app](https://my-portfolio-rho-five-42.vercel.app)
 - GitHub: [@RSaha0507](https://github.com/RSaha0507)
 - LinkedIn: [rounak-saha-932ab0253](https://linkedin.com/in/rounak-saha-932ab0253)
 - Email: rs574.cs008@gmail.com
