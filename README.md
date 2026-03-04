@@ -14,11 +14,15 @@ I am a Computer Science undergrad at NIT Meghalaya who loves building practical 
 
 ## Things I build
 
-- Applied ML projects from data prep to model evaluation and deployment
-- Full-stack product workflows with a strong backend + API focus
-- Practical, reproducible experiments with measurable outcomes
+- Client-driven digital products that solve real operational problems end-to-end
+- Applied ML pipelines from data prep to model evaluation and deployment
+- Full-stack systems with strong backend, API, and production-readiness focus
+- Practical, reproducible engineering work with measurable outcomes
 
 ## Featured projects
+
+### [Hercules-Gym-App](https://github.com/RSaha0507/Hercules-Gym-App)
+Client-requested digital gym operations platform with role-based workflows, branch-wise controls, QR attendance, payment-proof verification, and centralized day-to-day data management for admins, trainers, and members.
 
 ### [house-buying-ml-ensemble-lab](https://github.com/RSaha0507/house-buying-ml-ensemble-lab)
 Multi-class ML lab with Neural Networks, KNN, KMeans++, K-Medoids, bootstrap ensembling, full experiment tracking, and visual history.
