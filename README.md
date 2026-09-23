@@ -56,7 +56,6 @@ Ongoing optimization-focused transformer work for resource-constrained settings 
 - GATE 2025 DA: AIR 3748
 - Inter-department Hackathon 2024: 3rd place
 - ML Vision 2024: Certificate of Merit
-- Coursera / NPTEL: Deep Learning certification
 
 ## Community and leadership
 
