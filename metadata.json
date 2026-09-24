@@ -1,0 +1,9 @@
+{
+  "name": "Rounak Saha - ML Engineer & Developer Portfolio",
+  "description": "Portfolio of Rounak Saha, ML Engineer and Full-Stack Developer specializing in Transformer model optimization, AI applications, and scalable web solutions.",
+  "prompt": "Personal portfolio website of Rounak Saha featuring ML engineering, projects, research experience at IIT Jodhpur, education at NIT Meghalaya, interactive skills matrix, 3D animations, and resume.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
