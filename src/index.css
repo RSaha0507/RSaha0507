@@ -33,19 +33,19 @@
 
 /* Luminous Text Glows for Ultra-High Contrast against Animated Background */
 .text-glow-amber {
-  text-shadow: 0 0 12px rgba(245, 158, 11, 0.65), 0 0 24px rgba(245, 158, 11, 0.35);
+  text-shadow: 0 0 10px rgba(245, 158, 11, 0.45);
 }
 
 .text-glow-white {
-  text-shadow: 0 0 10px rgba(255, 255, 255, 0.55), 0 0 20px rgba(255, 255, 255, 0.25);
+  text-shadow: none;
 }
 
 .text-glow-cyan {
-  text-shadow: 0 0 12px rgba(56, 189, 248, 0.65), 0 0 24px rgba(56, 189, 248, 0.35);
+  text-shadow: 0 0 10px rgba(56, 189, 248, 0.45);
 }
 
 .text-glow-emerald {
-  text-shadow: 0 0 12px rgba(16, 185, 129, 0.65), 0 0 24px rgba(16, 185, 129, 0.35);
+  text-shadow: 0 0 10px rgba(16, 185, 129, 0.45);
 }
 
 /* Enhanced Project Card Glow Effect */

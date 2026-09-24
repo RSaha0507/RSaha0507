@@ -10,6 +10,7 @@ import { Awards } from './components/Awards';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
 import { Background3D } from './components/Background3D';
+import { CosmicFloatingEntities } from './components/CosmicFloatingEntities';
 import { initScrollAnimations } from './utils/scrollAnimations';
 
 export function App() {
@@ -23,8 +24,9 @@ export function App() {
   return (
     <div className="min-h-screen text-slate-300 relative selection:bg-amber-500 selection:text-slate-950">
       <Background3D />
+      <CosmicFloatingEntities />
       <Navbar />
-      <main className="max-w-6xl mx-auto px-4 sm:px-6">
+      <main className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6">
         <Hero />
         <About />
         <Education />

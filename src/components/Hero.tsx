@@ -4,7 +4,6 @@ import { GithubIcon } from './Icons';
 import { Typewriter } from './Typewriter';
 import { SpiralText } from './text-fx/SpiralText';
 import { WaveShimmerText } from './text-fx/WaveShimmerText';
-import { TextFXShowcase } from './text-fx/TextFXShowcase';
 
 export const Hero: React.FC = () => {
   const heroTypewriterPhrases = [
@@ -70,26 +69,15 @@ export const Hero: React.FC = () => {
 
         {/* Right Column: 3D Kinetic Spiral Badge */}
         <div className="hidden lg:flex lg:col-span-4 justify-center items-center">
-          <div className="glass-card p-6 rounded-3xl border-slate-700/50 bg-slate-950/20 backdrop-blur-md flex flex-col items-center gap-4 hover:border-amber-500/40 transition-all duration-300">
+          <div className="glass-card p-6 rounded-3xl border-slate-700/50 bg-slate-950/20 backdrop-blur-md flex flex-col items-center justify-center hover:border-amber-500/40 transition-all duration-300 shadow-2xl">
             <SpiralText
               text="• MACHINE LEARNING RESEARCHER • FULL STACK ARCHITECT • NIT MEGHALAYA • 9.39 CGPA • SURAJ FELLOW •"
-              radius={72}
+              radius={78}
               speed={16}
             />
-            <div className="text-center">
-              <span className="text-[11px] font-mono uppercase tracking-wider text-amber-400 text-glow-amber block font-bold">
-                Kinetic 3D Spiral Badge
-              </span>
-              <span className="text-[10px] text-slate-400">
-                Continuous double-orbital path (hover to accelerate)
-              </span>
-            </div>
           </div>
         </div>
       </div>
-
-      {/* Dynamic Text FX Showcase Engine */}
-      <TextFXShowcase />
     </section>
   );
 };

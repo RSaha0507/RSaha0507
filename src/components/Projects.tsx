@@ -73,14 +73,14 @@ export const Projects: React.FC = () => {
   return (
     <section id="projects" className="section py-20 border-t border-slate-800/60">
       <div className="text-center max-w-2xl mx-auto mb-14">
-        <div className="text-amber-400 font-semibold text-sm tracking-wider uppercase mb-2 flex items-center justify-center gap-1.5">
+        <div className="text-amber-400 font-semibold text-sm tracking-wider uppercase mb-2 flex items-center justify-center gap-1.5 text-glow-amber">
           <Sparkles className="w-4 h-4" />
           <span>Portfolio</span>
         </div>
         <h2 className="text-3xl sm:text-4xl font-black text-white tracking-tight">
           Featured Projects
         </h2>
-        <p className="mt-3 text-slate-400 text-sm sm:text-base">
+        <p className="mt-3 text-slate-300 text-sm sm:text-base">
           A selection of machine learning models, cybersecurity tools, and full-stack web applications. Click any card for in-depth architecture and tech specs.
         </p>
       </div>

@@ -19,8 +19,8 @@ export const About: React.FC = () => {
           <Globe2 className="w-4 h-4" />
           <span>Interactive Ecosystem</span>
         </div>
-        <h2 className="text-3xl sm:text-4xl font-black text-white tracking-tight text-glow-white">
-          About & The TechTerra World Globe
+        <h2 className="text-3xl sm:text-4xl font-black text-white tracking-tight">
+          About
         </h2>
         <p className="mt-3 text-slate-300 text-sm sm:text-base">
           Explore my skills clustered into distinct continents on a 360° interactive planet. Drag to rotate, zoom, or click any territory to inspect stack depth.
@@ -35,7 +35,7 @@ export const About: React.FC = () => {
               <GraduationCap className="w-4 h-4" />
               <span>NIT Meghalaya &bull; CSE '26</span>
             </div>
-            <h3 className="text-2xl sm:text-3xl font-black text-white tracking-tight leading-snug text-glow-white">
+            <h3 className="text-2xl sm:text-3xl font-black text-white tracking-tight leading-snug">
               Bridging Machine Learning Research with Full-Stack Engineering
             </h3>
           </div>
@@ -69,7 +69,7 @@ export const About: React.FC = () => {
           {/* Continent Territory Summary Pills */}
           <div className="pt-2">
             <span className="text-xs font-semibold uppercase tracking-wider text-amber-400 text-glow-amber block mb-2">
-              Clustered World Continents (Hover to Matrix-Decode):
+              Clustered Realms
             </span>
             <div className="grid grid-cols-2 gap-2">
               {techCountries.map((c) => (

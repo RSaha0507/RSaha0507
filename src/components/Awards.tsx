@@ -1,13 +1,14 @@
 import React from 'react';
-import { Trophy } from 'lucide-react';
+import { Trophy, Sparkles } from 'lucide-react';
 import { awardsList } from '../data/portfolioData';
 
 export const Awards: React.FC = () => {
   return (
     <section id="awards" className="section py-20 border-t border-slate-800/60">
       <div className="text-center max-w-2xl mx-auto mb-12">
-        <div className="text-amber-400 font-semibold text-sm tracking-wider uppercase mb-2">
-          Recognitions
+        <div className="text-amber-400 font-semibold text-sm tracking-wider uppercase mb-2 flex items-center justify-center gap-1.5 text-glow-amber">
+          <Sparkles className="w-4 h-4" />
+          <span>Recognitions & Milestones</span>
         </div>
         <h2 className="text-3xl sm:text-4xl font-black text-white tracking-tight">
           Awards & Achievements
@@ -24,7 +25,9 @@ export const Awards: React.FC = () => {
               <Trophy className="w-6 h-6 text-glow-amber" />
             </div>
             <div>
-              <h3 className="font-bold text-white text-base sm:text-lg text-glow-white">{item.award}</h3>
+              <h3 className="font-bold text-white text-base sm:text-lg">
+                {item.award}
+              </h3>
               <p className="text-sm text-slate-300 mt-0.5">{item.issuer}</p>
             </div>
           </div>
