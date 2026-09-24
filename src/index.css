@@ -248,4 +248,26 @@
   animation: shimmer-sweep 4s linear infinite;
 }
 
+/* 3D Statue Holographic Scanline */
+@keyframes scanline-sweep {
+  0% {
+    top: 0%;
+    opacity: 0.2;
+  }
+  15% {
+    opacity: 0.9;
+  }
+  85% {
+    opacity: 0.9;
+  }
+  100% {
+    top: 96%;
+    opacity: 0.2;
+  }
+}
+
+.animate-scanline {
+  animation: scanline-sweep 3.2s ease-in-out infinite alternate;
+}
+
 

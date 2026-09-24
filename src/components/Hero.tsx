@@ -1,9 +1,9 @@
 import React from 'react';
-import { ArrowRight, Sparkles, Code2 } from 'lucide-react';
+import { ArrowRight, Sparkles, Code2, Move3d } from 'lucide-react';
 import { GithubIcon } from './Icons';
 import { Typewriter } from './Typewriter';
-import { SpiralText } from './text-fx/SpiralText';
 import { WaveShimmerText } from './text-fx/WaveShimmerText';
+import { StatueFigure3D } from './StatueFigure3D';
 
 export const Hero: React.FC = () => {
   const heroTypewriterPhrases = [
@@ -16,9 +16,9 @@ export const Hero: React.FC = () => {
 
   return (
     <section id="home" className="section min-h-screen flex flex-col justify-center items-start pt-24 pb-12 relative">
-      <div className="grid lg:grid-cols-12 gap-8 items-center w-full">
+      <div className="grid lg:grid-cols-12 gap-8 lg:gap-12 items-center w-full">
         {/* Left Column Text Content */}
-        <div className="lg:col-span-8 hero-content">
+        <div className="lg:col-span-7 hero-content">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-amber-500/10 border border-amber-500/20 text-amber-400 text-xs font-semibold mb-6 backdrop-blur-md">
             <Sparkles className="w-3.5 h-3.5 text-glow-amber" />
             <span>Undergraduate @ NIT Meghalaya &bull; SURAJ Fellow @ IIT Jodhpur</span>
@@ -65,20 +65,25 @@ export const Hero: React.FC = () => {
               <span>GitHub Profile</span>
             </a>
           </div>
+
+          {/* Small Feature Badges */}
+          <div className="mt-10 pt-6 border-t border-slate-800/60 flex items-center gap-6 text-xs text-slate-400">
+            <div className="flex items-center gap-2">
+              <Move3d className="w-4 h-4 text-amber-400" />
+              <span>Interactive 3D Holographic Pedestal</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+              <span>Real-Time WebGL Shader Engine</span>
+            </div>
+          </div>
         </div>
 
-        {/* Right Column: 3D Kinetic Spiral Badge */}
-        <div className="hidden lg:flex lg:col-span-4 justify-center items-center">
-          <div className="glass-card p-6 rounded-3xl border-slate-700/50 bg-slate-950/20 backdrop-blur-md flex flex-col items-center justify-center hover:border-amber-500/40 transition-all duration-300 shadow-2xl">
-            <SpiralText
-              text="• MACHINE LEARNING RESEARCHER • FULL STACK ARCHITECT • NIT MEGHALAYA • 9.39 CGPA • SURAJ FELLOW •"
-              radius={78}
-              speed={16}
-            />
-          </div>
+        {/* Right Column: 3D Statue Figure Monument */}
+        <div className="lg:col-span-5 flex flex-col items-center justify-center relative">
+          <StatueFigure3D />
         </div>
       </div>
     </section>
   );
 };
-
